@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog - Warung Digital</title>
+  <link rel="stylesheet" href="blog-style.css" />
+</head>
+<body>
+  <!-- Bubble Cursor -->
+  <div class="bubble-cursor"></div>
+  <button id="back-to-home" class="btn-back-top" aria-label="Kembali ke Halaman Utama">
+    ← Kembali
+  </button>
+  <!-- Blog Header -->
+  <header class="blog-header">
+    <h1>Tips & Trik dari Warung Digital</h1>
+    <p>Temukan insight seputar kopi, lifestyle, dan kreasi menu terbaik kami.</p>
+  </header>
+
+   <!-- Navigation Arrows -->
+   <button class="nav-arrow left-arrow" aria-label="Previous">
+    <svg viewBox="0 0 64 64" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg" >
+      <path class="liquid-arrow" d="M40 12 L24 32 L40 52" stroke="#7B4B29" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+  <button class="nav-arrow right-arrow" aria-label="Next">
+    <svg viewBox="0 0 64 64" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg" >
+      <path class="liquid-arrow" d="M24 12 L40 32 L24 52" stroke="#7B4B29" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+
+  <!-- Blog Card Stack -->
+  <main class="blog-stack-container">
+    <div class="blog-card"
+      data-title="Cara Menyimpan Kopi Agar Tetap Fresh"
+      data-img="img/Café en grano.jpeg"
+      data-content="
+        &lt;p&gt;Kopi yang disimpan dengan buruk akan kehilangan aroma, rasa, dan kualitasnya secara drastis. Banyak orang tidak sadar bahwa penyimpanan kopi adalah faktor penting dalam menjaga kenikmatannya.&lt;/p&gt;
+        &lt;p&gt;Ada beberapa cara terbaik untuk menyimpan kopi agar tetap fresh:&lt;/p&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Gunakan wadah kedap udara (airtight jar).&lt;/li&gt;
+          &lt;li&gt;Letakkan di tempat sejuk dan gelap, jauh dari sinar matahari langsung.&lt;/li&gt;
+          &lt;li&gt;Jangan simpan di kulkas atau freezer karena bisa menyerap aroma lain.&lt;/li&gt;
+          &lt;li&gt;Hindari kontak langsung dengan udara terlalu lama setiap kali membuka wadah.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;Dengan cara ini, biji kopi atau bubuk kopi lo bisa tetap nikmat lebih lama — minimal 2–4 minggu setelah dibuka.&lt;/p&gt;">
+      <img src="img/Café en grano.jpeg" alt="Kopi Segar" />
+      <h2>Cara Menyimpan Kopi</h2>
+      <div class="preview"></div>
+      <div class="read-btn-wrapper">
+        <button class="read-btn">Read more</button>
+      </div>      
+    </div>
+
+    <div class="blog-card"
+      data-title="Resep Rahasia Latte Kafe Digital"
+      data-img="img/59224821-a7c9-4a5b-87a8-8d409d7e4a74.jpeg"
+      data-content="&lt;p&gt;Latte adalah minuman berbasis espresso yang creamy dan elegan. Kunci utamanya ada pada proporsi yang pas antara kopi dan susu, serta teknik pembuatan foam yang halus.&lt;/p&gt;
+      &lt;p&gt;Berikut rahasia ala barista Kafe Digital:&lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Gunakan 1 shot espresso + 2 bagian susu steamed.&lt;/li&gt;
+        &lt;li&gt;Panaskan susu hingga 60–65&amp;deg;C untuk hasil foam creamy.&lt;/li&gt;
+        &lt;li&gt;Tuangkan susu dari tengah, perlahan naikkan ke atas untuk hasil swirl yang cantik.&lt;/li&gt;
+        &lt;li&gt;Tambahkan sedikit bubuk kayu manis atau cocoa di atasnya untuk aroma eksklusif.&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p&gt;Latte yang sempurna tidak terlalu pahit, tidak terlalu manis — hanya seimbang dengan tekstur lembut dan cita rasa yang menyatu.&lt;/p&gt;">
+      <img src="img/59224821-a7c9-4a5b-87a8-8d409d7e4a74.jpeg" alt="Latte" />
+      <h2>Resep Rahasia Latte</h2>
+      <div class="preview"></div>
+      <div class="read-btn-wrapper">
+        <button class="read-btn">Read more</button>
+      </div>      
+    </div>
+
+    <div class="blog-card"
+      data-title="Manfaat Kopi untuk Kesehatan"
+      data-img="img/The 10 Coffee Tools I Bought After Working as a Barista for 21 Years.jpeg"
+      data-content="&lt;p&gt;Banyak orang minum kopi karena rasa dan aromanya, tapi ternyata kopi juga punya banyak manfaat kesehatan jika dikonsumsi dengan tepat.&lt;/p&gt;
+      &lt;p&gt;Beberapa manfaat utama kopi antara lain:&lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Meningkatkan energi dan konsentrasi karena kandungan kafein.&lt;/li&gt;
+        &lt;li&gt;Membantu metabolisme dan membakar lemak secara alami.&lt;/li&gt;
+        &lt;li&gt;Menurunkan risiko penyakit seperti Alzheimer dan Parkinson.&lt;/li&gt;
+        &lt;li&gt;Kaya antioksidan yang baik untuk menangkal radikal bebas.&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p&gt;Tapi ingat bro, konsumsi berlebihan juga bisa bikin jantung berdebar atau insomnia. Idealnya 1–2 cangkir sehari udah cukup untuk dapetin manfaat maksimal.&lt;/p&gt;">
+      <img src="img/The 10 Coffee Tools I Bought After Working as a Barista for 21 Years.jpeg" alt="Manfaat Kopi" />
+      <h2>Manfaat Kopi</h2>
+      <div class="preview"></div>
+      <div class="read-btn-wrapper">
+        <button class="read-btn">Read more</button>
+      </div>      
+    </div>
+
+    <div class="blog-card"
+      data-title="Tips Memilih Biji Kopi yang Tepat"
+      data-img="img/Cozy CafÃ© Moment_ Savoring Arabica Barista Espresso in Warmth  Comfort.jpeg"
+      data-content="&lt;p&gt;Memilih biji kopi yang tepat adalah langkah awal untuk mendapatkan secangkir kopi yang sempurna. Setiap jenis biji memiliki karakter rasa yang unik dan cocok untuk selera yang berbeda.&lt;/p&gt;
+      &lt;p&gt;Berikut beberapa tips memilih biji kopi yang sesuai dengan kebutuhan lo:&lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;strong&gt;Tentukan selera&lt;/strong&gt;: Kalau lo suka kopi ringan dengan aroma floral, pilih Arabika. Kalau suka yang pahit dan kuat, pilih Robusta.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Lihat asal biji&lt;/strong&gt;: Biji dari Ethiopia biasanya fruity, sedangkan dari Indonesia lebih earthy.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Periksa tanggal sangrai&lt;/strong&gt;: Semakin fresh, semakin baik. Idealnya dikonsumsi dalam 2-4 minggu setelah disangrai.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Pilih bentuk biji, bukan bubuk&lt;/strong&gt;: Biji kopi lebih tahan lama dan aromanya tetap terjaga sampai digiling.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Perhatikan metode seduh&lt;/strong&gt;: Untuk V60 atau pour-over, biji yang terang cocok. Untuk espresso, pilih biji yang lebih gelap.&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p&gt;Dengan memperhatikan tips ini, lo bisa nemuin biji kopi yang cocok buat karakter dan metode seduhan favorit lo.&lt;/p&gt;">
+      <img src="img/Cozy CafÃ© Moment_ Savoring Arabica Barista Espresso in Warmth  Comfort.jpeg" alt="Biji Kopi" />
+      <h2>Tips Memilih Biji Kopi</h2>
+      <div class="preview"></div>
+      <div class="read-btn-wrapper">
+        <button class="read-btn">Read more</button>
+      </div>
+    </div>
+
+    <div class="blog-card"
+      data-title="Tips Membuat Cold Brew di Rumah"
+      data-img="img/e08a5cbf-ca92-4a6c-9b17-2cf95c31c74f.jpeg"
+      data-content="&lt;p&gt;Cold brew adalah kopi yang diseduh dengan air dingin selama waktu lama, menghasilkan rasa yang lebih halus dan rendah keasaman.&lt;/p&gt;
+      &lt;p&gt;Cara membuatnya simpel dan bisa dilakukan di rumah:&lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Gunakan 1 bagian kopi kasar + 4 bagian air dingin.&lt;/li&gt;
+        &lt;li&gt;Campur di wadah tertutup, lalu simpan di kulkas selama 12–18 jam.&lt;/li&gt;
+        &lt;li&gt;Saring kopi dengan kain tipis atau filter kertas sebelum disajikan.&lt;/li&gt;
+        &lt;li&gt;Sajikan dengan es batu dan sedikit susu jika suka.&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p&gt;Cold brew bisa bertahan di kulkas 5–7 hari dan rasanya makin mantap hari demi hari. Ideal banget buat lo yang suka kopi dingin tapi tetap smooth.&lt;/p&gt;">
+      <img src="img/e08a5cbf-ca92-4a6c-9b17-2cf95c31c74f.jpeg" alt="Cold Brew" />
+      <h2>Cold Brew di Rumah</h2>
+      <div class="preview"></div>
+      <div class="read-btn-wrapper">
+        <button class="read-btn">Read more</button>
+      </div>      
+    </div>
+  </main>
+
+  <!-- Popup Artikel -->
+  <div class="popup-article">
+    <div class="popup-content">
+      <span class="close-popup">&times;</span>
+      <h2 id="popup-title"></h2>
+      <img id="popup-image" src="" alt="" style="width: 100%; border-radius: 8px; margin: 1rem 0;" />
+      <div id="popup-body" class="popup-text"></div>
+    </div>
+  </div>
+
+  <script src="blog.js"></script>
+
+  <footer class="footer">
+    <p>© 2025 Warung Digital. All rights reserved.</p>
+  </footer>
+  
+  
+</body>
+</html>
